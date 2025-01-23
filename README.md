@@ -1,3 +1,21 @@
+Crypto Dashboard
+Description
+A responsive React.js application that displays Bitcoin price trends for the past 30 days. The dashboard uses the CoinDesk API to fetch Bitcoin data and renders an interactive chart using react-chartjs-2.
+
+Features
+Real-time data fetching: Fetches Bitcoin price data from the CoinDesk API.
+Interactive charts: Displays Bitcoin trends using react-chartjs-2 and Chart.js.
+Responsive design: Fully responsive for desktop and mobile devices.
+Technologies Used
+React.js
+Axios
+Chart.js
+CoinDesk API
+Live Demo
+View the live project here.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
