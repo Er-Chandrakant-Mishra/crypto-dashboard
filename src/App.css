@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* src/styles/global.css */
+.table-auto {
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f4f4f4;
+}
+
+
+/* Add this CSS class in your global styles or Tailwind config to prevent the table from overflowing */
+@media (max-width: 768px) {
+  .table-responsive {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
